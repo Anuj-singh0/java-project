@@ -1,0 +1,37 @@
+.container{
+    background-color: #fff;
+    height: 1000px;
+
+}
+
+
+.navbar{
+    background-color: rgb(162, 162, 162);
+    height: 150px;
+    position: sticky;
+    top: 10px;
+    right: 2px;
+}
+
+.navitems{
+    display: flex;
+    height: 200px;
+    width: 800px;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 700px;
+}
+
+.logo{
+    margin-top: 20px;
+    position: absolute;
+    left: 10vh;
+    top: 11%;
+    z-index: 1;
+    background: transparent !important;
+}
